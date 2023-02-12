@@ -1,18 +1,11 @@
-# Index
+# Map of Content
 
-## Courses
+# [[CSS]]
 
+# [[Daily Notes]]
 
-## Frameworks
+# [[HTML]]
 
+# [[Ideas]]
 
-## Languages
-* [[CSS]]
-* [[HTML]]
-* [[JavaScript]]
-
-## Runtimes
-
-
-## Tools
-
+# [[JavaScript]]

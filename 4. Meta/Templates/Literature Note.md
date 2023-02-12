@@ -1,6 +1,6 @@
-Date created: {{date}}
-Tagged Concepts:
--  
+Date: {{date}}
+MOC:
+Tags:
 Type: [[Literature Note]]
 
 ---
