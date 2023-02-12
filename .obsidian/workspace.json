@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "1. MOC/Languages/JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ee6691904ff87f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MOC/Courses/Complete Path to JS Mastery.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "1. MOC/Courses/Complete Path to JS Mastery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "1. MOC/Courses/Complete Path to JS Mastery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "1. MOC/Courses/Complete Path to JS Mastery.md"
               }
             }
           }
@@ -146,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2867ced523dec22",
+  "active": "6ee6691904ff87f4",
   "lastOpenFiles": [
-    "1. Daily Notes/2023-02-12.md",
+    "1. MOC/Languages/CSS.md",
+    "1. MOC/Courses/Complete Path to JS Mastery.md",
+    "README.md",
+    "4. Meta/Templates/Daily Note.md",
+    "4. Meta/Templates/Literature Note.md",
+    "1. MOC/Languages/JavaScript.md",
+    "1. MOC/Languages/HTML.md",
+    "2. Daily Notes/2023-02-12.md",
     "Index.md",
-    "3. Meta/MOC/Languages/JavaScript.md",
-    "3. Meta/MOC/Languages/HTML.md",
-    "3. Meta/MOC/Languages/CSS.md",
-    "3. Meta/Templates/Literature Note.md",
-    "3. Meta/Templates/Daily Note.md",
-    "2. Literature Notes/Languages/HTML.md",
-    "2. Literature and Topic Notes/Topics/HTML - Literature Note.md",
-    "2. Literature and Topic Notes/Topics/JavaScript - Literature Note.md"
+    "2. Literature Notes/Languages/HTML.md"
   ]
 }

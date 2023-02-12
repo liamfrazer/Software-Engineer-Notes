@@ -7,9 +7,9 @@
 
 
 ## Languages
-* [[CSS]]
-* [[HTML]]
-* [[JavaScript]]
+* [[1. MOC/Languages/CSS]]
+* [[1. MOC/Languages/HTML]]
+* [[1. MOC/Languages/JavaScript]]
 
 ## Runtimes
 

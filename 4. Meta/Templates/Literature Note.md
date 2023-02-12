@@ -1,6 +1,6 @@
 Date created: {{date}}
 Tagged Concepts:
 -  
-Type:  [[Index]] [[Literature Note]]
+Type:  [[../../README]] [[Literature Note]]
 
 ---

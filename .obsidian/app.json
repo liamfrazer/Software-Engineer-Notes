@@ -5,5 +5,8 @@
   "showFrontmatter": true,
   "spellcheck": true,
   "foldHeading": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "newFileLocation": "current",
+  "trashOption": "local",
+  "newLinkFormat": "relative"
 }
