@@ -1,6 +1,6 @@
 Date created: 2023-02-12
-Tagged Concepts: [[../Languages/JavaScript]]
+Tagged Concepts: [[JavaScript]]
 -  #JavaScript
-Type:  [[../../README]] [[Literature Note]]
+Type:  [[Literature Note]]
 
 ---

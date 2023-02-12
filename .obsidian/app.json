@@ -8,5 +8,5 @@
   "showInlineTitle": false,
   "newFileLocation": "current",
   "trashOption": "local",
-  "newLinkFormat": "relative"
+  "newLinkFormat": "shortest"
 }
