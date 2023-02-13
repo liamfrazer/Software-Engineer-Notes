@@ -28,6 +28,9 @@ Tags:  #LivePerson #Watson #Data #React #Dashboard #Triage #Database
 	* https://www.youtube.com/watch?v=2FeymQoKvrk
 * iMessage Clone TypeScript
 	* https://www.youtube.com/watch?v=mj_Qe2jBYS4
+* React Dashboard App (Using third party syncfusion)
+	* https://www.youtube.com/watch?v=jx5hdo50a2M
+* 
 
 
 
