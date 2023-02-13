@@ -13,34 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Meta/Templates/Daily Note.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2fe5edc9671285d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "758be83196e59eed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Notes/Ideas/Chatbot Data Dashboard.md",
+                "file": "2. Notes/Daily Notes/2023-02-13.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Notes/Ideas/Chatbot Data Dashboard.md",
+                "file": "2. Notes/Daily Notes/2023-02-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Notes/Ideas/Chatbot Data Dashboard.md",
+                "file": "2. Notes/Daily Notes/2023-02-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Notes/Ideas/Chatbot Data Dashboard.md"
+                "file": "2. Notes/Daily Notes/2023-02-13.md"
               }
             }
           }
@@ -167,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "758be83196e59eed",
+  "active": "c9dd8649a93d44c2",
   "lastOpenFiles": [
+    "2. Notes/Ideas/Chatbot Data Dashboard.md",
+    "2. Notes/Ideas/[.md",
+    "3. Meta/Templates/Daily Note.md",
     "2. Notes/Daily Notes/2023-02-13.md",
     "README.md",
     "2. Notes/Daily Notes/2023-02-12.md",
     "2. Notes/JavaScript/Variables & Data Types.md",
     "1. MOC/JavaScript.md",
     "1. MOC/Ideas.md",
-    "1. MOC/HTML.md",
-    "1. MOC/Daily Notes.md",
-    "1. MOC/CSS.md",
-    "2. Notes/Ideas/Chatbot Data Dashboard.md"
+    "1. MOC/HTML.md"
   ]
 }

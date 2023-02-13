@@ -18,6 +18,16 @@ Tags:  #LivePerson #Watson #Data #React #Dashboard #Triage #Database
 
 * Conversation review process, conversations can be stored into a database, reviewed and then marked as reviewed once done, conversations then can be assigned to different people
 
-* [React Admin Dashboard][https://www.youtube.com/watch?v=wYpCWwD1oz0&list=WL&index=5&t=197s]
-* [Response JavaScript Admin Dashboard][https://www.youtube.com/watch?v=BOF79TAIkYQ&list=WL&index=3]
+* React Admin Dashboard App
+	* https://www.youtube.com/watch?v=wYpCWwD1oz0&list=WL&index=5&t=197s
+* Responsive Admin Dashboard JavaScript
+	* https://www.youtube.com/watch?v=BOF79TAIkYQ&list=WL&index=3
+* MERN React Admin dashboard with data modelling
+	* https://www.youtube.com/watch?v=0cPCMIuDk2I
+* ChatGPT AI Application
+	* https://www.youtube.com/watch?v=2FeymQoKvrk
+* iMessage Clone TypeScript
+	* https://www.youtube.com/watch?v=mj_Qe2jBYS4
+
+
 
