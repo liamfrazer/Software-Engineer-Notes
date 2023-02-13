@@ -8,5 +8,6 @@
   "showInlineTitle": false,
   "newFileLocation": "current",
   "trashOption": "local",
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": true
 }

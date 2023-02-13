@@ -1,5 +1,5 @@
 Date: {{date}}
-MOC: 
-Type: [[MOC]]
+MOC: {{title}}
+Type: [MOC](MOC.md)
 
 ---

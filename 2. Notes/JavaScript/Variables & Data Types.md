@@ -1,7 +1,7 @@
 Date: 2023-02-13
-MOC: [[JavaScript]]
+MOC: [JavaScript](JavaScript.md)
 Tags: #JavaScript #Variables #Datatypes
-Type: [[Literature Note]]
+Type: [Literature Note](Literature%20Note.md)
 
 ---
 
@@ -156,3 +156,94 @@ if (age >= 18) {
 Cool
 You may enter
 ```
+
+## Null
+* The special `null` value does not belong to any of the types described above
+* It forms a separate type of its own which contains only the `null` value
+* `null` is just a special value which represents nothing, empty or value unknown
+```JavaScript
+let age = null;
+```
+
+## Undefined
+* A variable that has not been assigned a value is undefined
+* `Undefined` is a special value of its own, similar to `null`
+* The meaning of `undefined` is value has not been assigned
+* If a variable is declared but not assigned, then its value is `undefined` by default
+```JavaScript
+let x;
+console.log(x);
+```
+```JavaScript
+undefined
+```
+
+## Undefined vs Null
+* `undefined` means a variable has been declared but has not yet been assigned a value
+* `null` is an assignment value, it has been assigned to a variable as a representation of no value
+* Unassigned variables are initialised by JavaScript with a default value of undefined.
+* JavaScript never sets a value to null, this must be done programmatically.
+
+## Objects
+* Objects are the most important data type and forms the building block for JavaScript.
+* All other data types are called 'primitive' because their values can only contain a single type, such as;
+	* String
+	* Number
+	* Etc
+* Objects are used to store collections of data and complex entities
+* There are different types of objects in JavaScript, such as;
+	* `array` - to store ordered data collections
+	* `date` - to store the information about the date and time
+	* `error` - to store the information about an error
+
+* Objects in their simplest form are used to group variables
+```JavaScript
+// Two unrelated variables
+const name = 'Liam';
+const age = 28;
+```
+```JavaScript
+// Creating an object called person
+const person = {
+	name: 'Liam',
+	age: 28,
+}
+```
+* We can extract specific values from the object using the dot notation:
+```JavaScript
+person.name
+person.age
+```
+
+```JavaScript
+const person = {
+    name: 'Liam',
+    age: 28,
+}
+console.log(`My name is ${person.name} and my age is ${person.age}`);
+```
+```JavaScript
+My name is Liam and my age is 28
+```
+
+## Statically vs Dynamically Typed Languages
+### Statically Typed Languages
+* Statically typed languages are where each variable and expression type are already known at compile time.
+* One a variable is declared to be of a certain data type, it cannot hold values of other data types.
+* C, C++ and Java are examples of Statically typed languages
+### Dynamically Typed Languages
+* Dynamically typed languages can receive different data types.
+* JavaScript is a dynamically typed language.
+* Variables in JavaScript can receive different data types at different times
+* A variable in JavaScript can start off as a string, but then be assigned the value type of a number
+```JavaScript
+let message = "Hello";
+console.log(message)
+message = 123456;
+console.log(message)
+```
+```JavaScript
+hello
+123456
+```
+

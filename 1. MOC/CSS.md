@@ -1,5 +1,5 @@
 Date: 2023-02-12
-MOC: [[CSS]]
-Type: [[MOC]]
+MOC: [CSS](CSS.md)
+Type: [MOC](MOC.md)
 
 ---

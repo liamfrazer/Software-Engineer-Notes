@@ -1,7 +1,7 @@
 Date created: 2023-02-12
-Tagged Concepts: [[Ideas]]
+Tagged Concepts: [Ideas](Ideas.md)
 Tags:  #LivePerson #Watson #Data #React #Dashboard #Triage #Database
-Type: [[Literature Note]]
+Type: [Literature Note](Literature%20Note.md)
 
 ---
 * Admin only access that can be used to store credentials
