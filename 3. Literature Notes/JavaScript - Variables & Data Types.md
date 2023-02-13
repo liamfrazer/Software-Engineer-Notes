@@ -4,3 +4,7 @@ Tags: #JavaScript #Variables #Datatypes
 Type: [[Literature Note]]
 
 ---
+
+# Variables
+
+* Variables are containers that hold re-useable storage
