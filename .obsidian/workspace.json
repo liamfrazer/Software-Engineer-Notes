@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "1. MOC/JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bf13387508e3480",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Literature Notes/JavaScript - Variables & Data Types.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "3. Literature Notes/JavaScript - Variables & Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "3. Literature Notes/JavaScript - Variables & Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "3. Literature Notes/JavaScript - Variables & Data Types.md"
               }
             }
           }
@@ -183,17 +195,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32addae3d816a952",
+  "active": "0bf13387508e3480",
   "lastOpenFiles": [
-    "1. MOC/Ideas.md",
+    "1. MOC/JavaScript.md",
+    "3. Literature Notes/JavaScript - Variables & Data Types.md",
+    "2. Daily Notes/2023-02-13.md",
     "README.md",
+    "1. MOC/Ideas.md",
     "4. Meta/Templates/MOC.md",
     "4. Meta/Templates/Literature Note.md",
     "4. Meta/Templates/Daily Note.md",
     "1. MOC/CSS.md",
-    "1. MOC/Daily Notes.md",
-    "1. MOC/HTML.md",
-    "1. MOC/JavaScript.md",
-    "2. Daily Notes/2023-02-12.md"
+    "1. MOC/Daily Notes.md"
   ]
 }

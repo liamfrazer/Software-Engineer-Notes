@@ -3,3 +3,5 @@ MOC: [[JavaScript]]
 Type: [[MOC]]
 
 ---
+# [[JavaScript - Variables & Data Types]]
+
