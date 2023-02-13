@@ -1,9 +1,10 @@
 # Map of Content
 
-* # [CSS](CSS.md)
-* # [Daily Notes](Daily%20Notes.md)
-* # [HTML](HTML.md)
-* # [Ideas](Ideas.md)
-* # [JavaScript](JavaScript.md)
-	* ## [Variables & Data Types](Variables%20&%20Data%20Types.md)
+* # [CSS](1.%20MOC/CSS.md)
+* # [Daily Notes](1.%20MOC/Daily%20Notes.md)
+* # [HTML](1.%20MOC/HTML.md)
+* # [Ideas](1.%20MOC/Ideas.md)
+* # [JavaScript](1.%20MOC/JavaScript.md)
+	* ## [Variables & Data Types](2.%20Notes/JavaScript/Variables%20&%20Data%20Types.md)
+	* 
 	

@@ -1,11 +1,11 @@
 Date: 2023-02-12
 MOC: [JavaScript](JavaScript.md)
-Type: [MOC](MOC.md)
+Type: [MOC](../3.%20Meta/Templates/MOC.md)
 
 ---
 # JavaScript
 ---
-## [Variables & Data Types](Variables%20&%20Data%20Types.md)
+## [Variables & Data Types](../2.%20Notes/JavaScript/Variables%20&%20Data%20Types.md)
 * [Variables](Variables%20&%20Data%20Types.md#Variables)
 * [Reassigning Variables](Variables%20&%20Data%20Types.md#Reassigning%20Variables)
 * [Data Types](Variables%20&%20Data%20Types.md#Data%20Types)
