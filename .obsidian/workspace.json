@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Literature Notes/JavaScript - Variables & Data Types.md",
+                "file": "3. Literature Notes/JS - Variables & Data Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Literature Notes/JavaScript - Variables & Data Types.md",
+                "file": "3. Literature Notes/JS - Variables & Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Literature Notes/JavaScript - Variables & Data Types.md",
+                "file": "3. Literature Notes/JS - Variables & Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Literature Notes/JavaScript - Variables & Data Types.md"
+                "file": "3. Literature Notes/JS - Variables & Data Types.md"
               }
             }
           }
@@ -198,7 +198,7 @@
   "active": "0bf13387508e3480",
   "lastOpenFiles": [
     "1. MOC/JavaScript.md",
-    "3. Literature Notes/JavaScript - Variables & Data Types.md",
+    "3. Literature Notes/JS - Variables & Data Types.md",
     "2. Daily Notes/2023-02-13.md",
     "README.md",
     "1. MOC/Ideas.md",

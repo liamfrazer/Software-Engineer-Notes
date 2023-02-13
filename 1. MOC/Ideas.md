@@ -3,4 +3,4 @@ MOC: [[Ideas]]
 Type: [[MOC]]
 
 ---
-## [[Chatbot Data Dashboard]]
+## [[Idea - Chatbot Data Dashboard]]
