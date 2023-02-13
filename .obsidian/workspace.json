@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. MOC/JavaScript.md",
+                "file": "2. Notes/JavaScript/Variables & Data Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. MOC/JavaScript.md",
+                "file": "2. Notes/JavaScript/Variables & Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. MOC/JavaScript.md",
+                "file": "2. Notes/JavaScript/Variables & Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. MOC/JavaScript.md"
+                "file": "2. Notes/JavaScript/Variables & Data Types.md"
               }
             }
           }
@@ -175,9 +175,9 @@
     "1. MOC/HTML.md",
     "1. MOC/Daily Notes.md",
     "1. MOC/CSS.md",
-    "3. Meta/Templates/Literature Note.md",
-    "3. Meta/Templates/MOC.md",
-    "3. Meta/Templates/Daily Note.md",
+    "2. Notes/Daily Notes/2023-02-12.md",
+    "2. Notes/Daily Notes/2023-02-13.md",
+    "2. Notes/Ideas/Chatbot Data Dashboard.md",
     "2. Notes/JavaScript/Variables & Data Types.md"
   ]
 }

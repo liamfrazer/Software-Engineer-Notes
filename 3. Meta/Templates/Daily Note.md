@@ -1,6 +1,5 @@
 Date: {{date}}
-MOC: [Daily Notes](Daily%20Notes.md)
+MOC: [Daily Notes](../../1.%20MOC/Daily%20Notes.md)
 Tags: 
-Type: [Daily Note](Daily%20Note.md)
 
 ---

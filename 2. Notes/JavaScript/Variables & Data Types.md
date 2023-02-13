@@ -1,7 +1,6 @@
 Date: 2023-02-13
-MOC: [JavaScript](JavaScript.md)
+MOC: [JavaScript](../../1.%20MOC/JavaScript.md)
 Tags: #JavaScript #Variables #Datatypes
-Type: [Literature Note](Literature%20Note.md)
 
 ---
 
