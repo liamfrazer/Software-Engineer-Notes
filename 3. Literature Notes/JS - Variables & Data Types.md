@@ -85,3 +85,74 @@ const singleQuotes = 'Hello';
 const doubleQuotes = "Hello";
 const backticks = `Hello ${2 + 2}`;
 ```
+
+## typeof
+* When inspecting data types within JavaScript, we can write `typeof` before the value.
+* This will give us a data type of the actual value
+```JavaScript
+const backticks = `Hello ${2 + 2}`;
+console.log(typeof backticks);
+```
+```JavaScript
+string
+```
+
+## Numbers
+*  Within JavaScript, you don't have to specify the type of number (integer or a float), this is taken care of by the language's runtime environment.
+```JavaScript
+const wholeNumber = 5;
+const decimalNumber = 0.5;
+```
+* There are many operations for numbers;
+	* Multiplication = `*`
+	* Division = `/`
+	* Addition = `+`
+	* Subtraction = `-`
+```JavaScript
+// Numbers
+const firstNumber = 5;
+const secondNumber = 10;
+const result = firstNumber + secondNumber;
+console.log(result);
+```
+```JavaScript
+15
+```
+
+## NaN
+* `NaN` stands for Not a Number, which represents a computational error.
+* It is a result of an incorrect or an undefined mathematical operation.
+```JavaScript
+// Numbers
+const firstNumber = "test";
+const secondNumber = 10;
+const result = firstNumber / secondNumber;
+console.log(result);
+```
+```JavaScript
+NaN
+```
+
+## Booleans
+* Booleans represents a logical entity which can only equal the following;
+	* `true`
+	* `false`
+* This is important for adding logic to our programs, which just two values we can create complex systems of loops and conditions
+```JavaScript
+// is Cool
+const isCool = true;
+if (isCool) {
+    console.log('Cool');
+} else {
+    console.log('Not cool');
+}
+// Age
+const age = 20;
+if (age >= 18) {
+   console.log("You may enter");
+}
+```
+```JavaScript
+Cool
+You may enter
+```
