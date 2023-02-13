@@ -17,3 +17,7 @@ Tags:  #LivePerson #Watson #Data #React #Dashboard #Triage #Database
 	* Expected impact and can auto update with related conversations following same conversation route - each message API data has the node output stored within
 
 * Conversation review process, conversations can be stored into a database, reviewed and then marked as reviewed once done, conversations then can be assigned to different people
+
+* [React Admin Dashboard][https://www.youtube.com/watch?v=wYpCWwD1oz0&list=WL&index=5&t=197s]
+* [Response JavaScript Admin Dashboard][https://www.youtube.com/watch?v=BOF79TAIkYQ&list=WL&index=3]
+
