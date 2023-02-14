@@ -148,11 +148,19 @@ false == undefined // false
 false == null // false
 null == undefined // true
 ```
-
-
+![](../../3.%20Meta/Media/Pasted%20image%2020230214184931.png)
+![](../../3.%20Meta/Media/Pasted%20image%2020230214185027.png)
 
 ## Logical Operators
-* 
+* JavaScript includes three logical operators
+	* `||` OR
+	* `&&` AND
+	* `!!` NOT
+
+### And Operator `&&`
+* `&&` checks whether ALL OPERANDS are truthy values.
+* If they are truthy, this will return `true`, otherwise it will return `false`
+
 
 ## Assignment Operators
 * 
