@@ -22,11 +22,58 @@ result = a + b;
 console.log(result);
 ```
 
+```JavaScript
+const a = 5;
+const b = 10;
+let result;
 
+// Addition
+result = a + b;
+console.log(result);
+
+// Subtraction
+result = a - b;
+console.log(result);
+
+// Multiplication
+result = a * b;
+console.log(result);
+
+// Division
+result = a / b;
+console.log(result);
+
+// Modulo Operator
+result = a % b;
+console.log(result);
+
+// Increment
+result++;
+console.log(result);
+
+// Decrement
+result--;
+console.log(result);
+
+// Exponentiation
+result = a ** b;
+console.log(result);
+```
+
+* Exponent means A to the power of B (5 to the power of 10)
+* Modulo is when you divide A by B, the modulo is the remainder
+	* 13 / 12 = 1 (remainder 1)
+	* 1 / 12 = 0 (1 fits 0 times into 12 and the remainder is 1)
+	* 15 / 11 = 1 (remainder is 4)
+	* 4 / 11 = 0 (remainder is 4)
 
 
 ## Comparison Operators and Equality
-* 
+* Comparison operators compare two values and return a Boolean value, either true or false.
+* The return value of a comparison operator is always going to return a Boolean value.
+* Equality operators allow us to test when a value is equal, or whether a value is not equal
+
+
 
 ## Strict vs Loose Equality
 * 
