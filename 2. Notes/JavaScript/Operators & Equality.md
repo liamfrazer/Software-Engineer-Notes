@@ -186,5 +186,26 @@ console.log(!false); // true
 ```
 
 ## Assignment Operators
-* 
+*  An assignment operator assigns a value to its left operands based on the value of its right operands
+* The simplest form of an assignment operator is `=`
+```JavaScript
+const number = 5
+```
+* Assignment operators can be joined with one of the arithmetic operators
+* The addition assignment can also be used with strings
+```JavaScript
+let number = 5;
+let string = 'Hello';
+
+number += 5; // number = number + 5;
+number -= 5; // number = number - 5;
+number *= 5; // number = number * 5;
+number /= 5; // number = number / 5;
+console.log(number); // 5
+
+string += ', I am Liam';
+console.log(string); // Hello, I am Liam
+```
+
+
 
