@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. MOC/JavaScript.md",
+                "file": "2. Notes/Daily Notes/2023-02-14.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. MOC/JavaScript.md",
+                "file": "2. Notes/Daily Notes/2023-02-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. MOC/JavaScript.md",
+                "file": "2. Notes/Daily Notes/2023-02-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. MOC/JavaScript.md"
+                "file": "2. Notes/Daily Notes/2023-02-14.md"
               }
             }
           }
@@ -185,10 +185,10 @@
   },
   "active": "536f820fba70b531",
   "lastOpenFiles": [
+    "1. MOC/JavaScript.md",
     "README.md",
     "1. MOC/Ideas.md",
     "2. Notes/Ideas/Conversation Review Process.md",
-    "1. MOC/JavaScript.md",
     "2. Notes/JavaScript/Logic & Control Flow.md",
     "2. Notes/JavaScript/Operators & Equality.md",
     "2. Notes/JavaScript/Variables & Data Types.md",
