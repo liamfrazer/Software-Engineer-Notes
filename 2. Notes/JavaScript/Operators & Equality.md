@@ -104,7 +104,52 @@ console.log(a !== b);
 
 
 ## Strict vs Loose Equality
-* 
+
+### Strict Equality using `===`
+* Two values are equal when they are the same value
+```JavaScript
+console.log("String" === "String"); // true
+console.log(2 === 2); // true
+```
+
+* JavaScript allows us to test loose equality.
+* Things may be considered loosely equal even if they refer to different values that look similar
+```JavaScript
+console.log(5 == "5"); // true
+```
+
+* With the strict equality `===`, the JavaScript interpreter compares the values as well as their types.
+* JavaScript will only return true when both the value and the type are the same.
+```JavaScript
+console.log(20 === "20"); // false
+```
+* As the first value is a number, and the second value is a string, JavaScript will return false as the two types are different
+
+### Loose Equality
+* Visual representation of strict versus loose equalities
+	* https://dorey.github.io/JavaScript-Equality-Table/
+* Loose equality does not compare the data types. This can introduce bugs and can be unpredictable.
+* Swapping to strict equality will allow us to be more predictable with our code
+```JavaScript
+5 == "5" // true
+```
+* The number 5 should not equal the string "5", this is an example of where we should completely avoid loose equality and rely only on the strict equality.
+```JavaScript
+console.log(5 == "5"); // true
+console.log(20 === "20"); // false
+
+'' == '0' // false
+0 == '' // true
+0 == '0' // true
+
+false == 'false' // false
+false == '0' // true
+false == undefined // false
+false == null // false
+null == undefined // true
+```
+
+
 
 ## Logical Operators
 * 
