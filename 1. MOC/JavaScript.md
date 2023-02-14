@@ -26,6 +26,16 @@ MOC: [JavaScript](JavaScript.md)
 * [Strict vs Loose Equality](../2.%20Notes/JavaScript/Operators%20&%20Equality.md#Strict%20vs%20Loose%20Equality)
 * [Logical Operators](../2.%20Notes/JavaScript/Operators%20&%20Equality.md#Logical%20Operators)
 * [Assignment Operators](../2.%20Notes/JavaScript/Operators%20&%20Equality.md#Assignment%20Operators)
+---
+## [Logic & Control Flow](../2.%20Notes/JavaScript/Logic%20&%20Control%20Flow.md)
+* [If Statement](../2.%20Notes/JavaScript/Logic%20&%20Control%20Flow.md#If%20Statement)
+* [Truthy & Falsy Values](../2.%20Notes/JavaScript/Logic%20&%20Control%20Flow.md#Truthy%20&%20Falsy%20Values)
+* [Logical Operators](../2.%20Notes/JavaScript/Logic%20&%20Control%20Flow.md#Logical%20Operators)
+* [Switch Statement](../2.%20Notes/JavaScript/Logic%20&%20Control%20Flow.md#Switch%20Statement)
+* [Ternary Operator](../2.%20Notes/JavaScript/Logic%20&%20Control%20Flow.md#Ternary%20Operator)
+* [Looping - While and For Loops](../2.%20Notes/JavaScript/Logic%20&%20Control%20Flow.md#Looping%20-%20While%20and%20For%20Loops)
+---
+
 
 
 
