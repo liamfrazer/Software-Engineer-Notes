@@ -72,7 +72,35 @@ console.log(result);
 * Comparison operators compare two values and return a Boolean value, either true or false.
 * The return value of a comparison operator is always going to return a Boolean value.
 * Equality operators allow us to test when a value is equal, or whether a value is not equal
+```JavaScript
+const a = 5;
+const b = 10;
 
+// Is A greater than B
+console.log(a > b);
+
+// Is A greater or equal to B
+console.log(a >= b);
+
+// Is A less than B
+console.log(a < b);
+
+// Is A less than or equal to B
+console.log(a <= b);
+
+// Is A equal to B
+console.log(a == b);
+
+// Is A NOT equal to B
+console.log(a != b);
+
+// Is A STRICTLY equal to B
+console.log(a === b);
+
+// Is A STRICTLY NOT equal to B
+console.log(a !== b);
+```
+* All comparison operators and equality operators will only return Boolean values (true or false)
 
 
 ## Strict vs Loose Equality
