@@ -160,7 +160,30 @@ null == undefined // true
 ### And Operator `&&`
 * `&&` checks whether ALL OPERANDS are truthy values.
 * If they are truthy, this will return `true`, otherwise it will return `false`
+```JavaScript
+console.log(true && false); // false
+console.log(true && true); // true
+console.log(false && false); // false
+console.log(true && true && false); // false
+```
 
+### OR Operator `||`
+* || chests whether AT LEAST ONE OPERANDS is a true value.
+* If there is at least one true, it will return `true`, otherwise it will return `false`
+```JavaScript
+console.log(true || false); // true
+console.log(true || true); // true
+console.log(false || false); // false
+console.log(true || true || false); // true
+```
+
+### Not Operator `!`
+* `!` is known as a NOT operator
+* This will reverse the Boolean result of the condition
+```JavaScript
+console.log(!true); // false
+console.log(!false); // true
+```
 
 ## Assignment Operators
 * 
