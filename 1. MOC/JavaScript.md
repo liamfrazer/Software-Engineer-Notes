@@ -20,7 +20,12 @@ MOC: [JavaScript](JavaScript.md)
 * [Objects](Variables%20&%20Data%20Types.md#Objects)
 * [Statically vs Dynamically Typed Languages](Variables%20&%20Data%20Types.md#Statically%20vs%20Dynamically%20Typed%20Languages)
 ---
-
+## [Operators & Equality](../2.%20Notes/JavaScript/Operators%20&%20Equality.md)
+* [Arithmetic Operators](../2.%20Notes/JavaScript/Operators%20&%20Equality.md#Arithmetic%20Operators)
+* [Comparison Operators and Equality](../2.%20Notes/JavaScript/Operators%20&%20Equality.md#Comparison%20Operators%20and%20Equality)
+* [Strict vs Loose Equality](../2.%20Notes/JavaScript/Operators%20&%20Equality.md#Strict%20vs%20Loose%20Equality)
+* [Logical Operators](../2.%20Notes/JavaScript/Operators%20&%20Equality.md#Logical%20Operators)
+* [Assignment Operators](../2.%20Notes/JavaScript/Operators%20&%20Equality.md#Assignment%20Operators)
 
 
 
