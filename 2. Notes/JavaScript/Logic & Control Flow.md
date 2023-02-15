@@ -66,7 +66,7 @@ if (1) {
 ```
 * https://sitepoint.com/javascript-thurthy-falsy/
 
-## Logical Operators
+## Truthy Falsy Logical Operators
 
 ### AND Operator
 ```JavaScript
@@ -137,7 +137,6 @@ false
 * The first NOT converts the value to Boolean and returns the inverse
 * The second NOT inverses it again.
 * In the end, we have a plain value to Boolean conversion.
-
 
 ## Switch Statement
 
