@@ -198,11 +198,90 @@ switch (superHero) {
 Please enter a valid superhero name:
 ```
 
-
-
 ## Ternary Operator
+* The Ternary operator should be used for for the simple true or false checks
+```pseudocode
+condition ? value if true : value if false
+```
+* The equivalent `if` statement equivalent is as follows:
+```psuedocode
+if (condition) {
+	value if true;
+} else {
+	value if false;
+}
+```
 
+* IF statement
+```JavaScript
+const person = {
+    age: 18,
+}
+
+if (person.age >= 18) {
+    console.log('Legal age to drive');
+} else {
+    console.log('Not legal age to drive');
+}
+```
+```JavaScript
+Legal age to drive
+```
+
+* Ternary statement
+```JavaScript
+const person = {
+    age: 18,
+}
+
+person.age >= 18 ? console.log('Legal age to drive') : console.log('Not legal age to drive');
+```
+```JavaScript
+Legal age to drive
+```
 
 ## Looping - While and For Loops
 
+### For loop
+* Instead of repeating ourselves, which breaks the DRY protocol, we can use the FOR loop instead
+* A for loop will run `for` a specified number of times
+* For loops are declared with three optional expressions separated by semicolons:
+	* Initialization
+	* condition
+	* final expression
+* These are then normally followed by a block statement
+```psuedocode
+for ([initalisation]; [condition]; [final-expression]){
+	statement
+}
+```
+
+* The initialisation statement is executed one time only before the loop starts
+* This is typically used to define and setup the loop variable
+* The condition statement is then evaluated at the beginning of every loop iteration
+* This will continue as long as it evaluates to true
+* Once the condition is false at the start of the iteration, the loop will stop executing
+
+* If the condition starts with false, the loop will never execute
+* The final-expression is executed at the end of each loop iteration
+* This is prior to the next condition check
+* This is usally used to increment or decrement the loop
+```JavaScript
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+```
+
+### While loop
+```JavaScript
+let i = 0;
+while (i <= 10) {
+    console.log(i);
+    i++;
+}
+```
+* A single execution of the loop body is called an interation
+* The code above will have 10 iterations
+* Without i++, the loop would be infinite
+* 
 
