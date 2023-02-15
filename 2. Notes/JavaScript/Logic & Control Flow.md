@@ -139,6 +139,65 @@ false
 * In the end, we have a plain value to Boolean conversion.
 
 ## Switch Statement
+* The switch statement is very similar to the IF statement
+* If you have a larger number of conditions, the switch statement might be more suitable
+* The switch statement takes in a value, then checks it on a number of cases
+```JavaScript
+let superHero = 'Captain America';
+
+switch (superHero) {
+    case 'Iron Man':
+        console.log('Iron Man');
+        break;
+    case 'Thor':
+        console.log('Thor');
+        break;
+    case 'Captain America':
+        console.log('Captain America');
+        break;
+    case 'Black Widow':
+        console.log('Black Widow');
+        break;
+}
+```
+```JavaScript
+Captain America
+```
+* In the example above, we passed the `superHero` variable to the switch statement
+* The switch statement then executes the following check
+```JavaScript
+'Captain America' === 'Iron Man'
+```
+* As this is `false`, it skips past this case, then evaluates the next one
+* As soon as it matches correctly, it will execute the code inside of that case
+* The `break` keyword ends the switch when we get the correct case
+* If we omit the break statement, the next case will be executed erven if the condition does not match the case
+* If no cases match the correct value, switch statements include the `default` case
+```JavaScript
+let superHero = 'Hello';
+
+switch (superHero) {
+    case 'Iron Man':
+        console.log('Iron Man');
+        break;
+    case 'Thor':
+        console.log('Thor');
+        break;
+    case 'Captain America':
+        console.log('Captain America');
+        break;
+    case 'Black Widow':
+        console.log('Black Widow');
+        break;
+    default:
+        console.log('Please enter a valid superhero name:');
+
+}
+```
+```JavaScript
+Please enter a valid superhero name:
+```
+
 
 
 ## Ternary Operator
