@@ -283,5 +283,4 @@ while (i <= 10) {
 * A single execution of the loop body is called an interation
 * The code above will have 10 iterations
 * Without i++, the loop would be infinite
-* 
 

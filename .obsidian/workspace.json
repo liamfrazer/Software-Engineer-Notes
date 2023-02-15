@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bdd8ea104ad3dfd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Notes/JavaScript/Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Notes/JavaScript/Logic & Control Flow.md",
+                "file": "2. Notes/JavaScript/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Notes/JavaScript/Logic & Control Flow.md",
+                "file": "2. Notes/JavaScript/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Notes/JavaScript/Logic & Control Flow.md"
+                "file": "2. Notes/JavaScript/Functions.md"
               }
             }
           }
@@ -195,17 +207,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27acb49a998494a3",
+  "active": "bdd8ea104ad3dfd1",
   "lastOpenFiles": [
-    "README.md",
     "1. MOC/JavaScript.md",
+    "1. MOC/Ideas.md",
+    "1. MOC/HTML.md",
+    "1. MOC/Daily Notes.md",
+    "1. MOC/CSS.md",
+    "README.md",
+    "2. Notes/JavaScript/Functions.md",
     "2. Notes/JavaScript/Logic & Control Flow.md",
     "2. Notes/Daily Notes/2023-02-15.md",
-    "1. MOC/Ideas.md",
-    "2. Notes/Ideas/Agent Chat Support Solution.md",
-    "2. Notes/Daily Notes/2023-02-14.md",
-    "2. Notes/Ideas/Conversation Review Process.md",
-    "2. Notes/JavaScript/Operators & Equality.md",
-    "2. Notes/JavaScript/Variables & Data Types.md"
+    "2. Notes/Ideas/Agent Chat Support Solution.md"
   ]
 }
