@@ -59,8 +59,110 @@ console.log(result);
 
 ## Declaring and Invoking Functions
 
+* There are three different ways that we can declare a function within JavaScript
+
+### Function Declaration
+*  A function declaration defines a named function
+* To create a function declaration, you use the function keyword followed by the name of the function
+```JavaScript
+function name(parameteres){
+	statements
+}
+```
+
+### Function Expression
+* A Function expression defines a named or anonymous function
+* An anonymous function is a function that has no name
+* Within the function below, we are setting the anonymous function object equal to a variable
+```JavaScript
+let name = function(parameteres){
+	statements
+}
+```
+
+### Arrow Function Expression
+* An arrow function expression is a shorter syntax for writing function expressions
+* Arrow functions are the most modern way to create JavaScript functions
+```JavaScript
+const name = (parameters) => {
+	statements
+}
+```
+
+* For the majority of cases, we would always use the arrow functions
+* The only exception to this is when we want to access the `this` keyword, which only a Function Declaration has access to
+
+### Invoking Functions
+* Functions execute when they are called
+* This process is known as invocation
+* You can invoke a function by referencing the function name, followed by an open and closed parenthesis
+```JavaScript
+function sayHi(name) {
+    console.log(`Hi, ${name}`);
+}
+
+sayHi('Liam');
+```
+```console
+Hi, Liam
+```
+* First we define the function named `sayHi`
+* This function then takes one parameter `name`
+* When executed, the function will log that `name` back to the console
+* To invoke the function, we call it.
+* We pass through a singular argument, in the example above we're calling the function with the `name:` `liam`
 
 ## Function Return
+* Every function in JavaScript returns `undefined` unless otherwise specified
+* If we don't tell the function to return, it is always going to return undefined
+```JavaScript
+function add(a, b) {
+    return a + b;
+}
+
+const sum = add(2, 2);
+
+console.log(sum);
+```
+```console
+4
+```
+* This is a function that will return the sum of numbers `a` and `b`
+* We then invoke the function and save the return value to the variable `sum`
+* We then print the value with `console.log(sum)`
+
+```JavaScript
+function test() {
+    return true;
+    return false;
+};
+
+console.log(test());
+```
+```console
+true
+```
+* The first return statement above immediately stops execution of our function
+* This causes our function to return `true'
+* The code `return false` is never executed
+
+```JavaScript
+function test() {
+    console.log(1);
+    return true;
+    console.log(2);
+    return false;
+    console.log(3);
+};
+
+console.log(test());
+```
+```console
+1
+true
+```
+* In the above code, we only see the first console log and the return of true
+* As soon as the function returns something, it has completed and returns back to where the function was originally called
 
 
 ## Arrow Functions
