@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Notes/JavaScript/Functions.md",
+                "file": "2. Notes/Daily Notes/2023-02-16.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Notes/JavaScript/Functions.md",
+                "file": "2. Notes/Daily Notes/2023-02-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Notes/JavaScript/Functions.md",
+                "file": "2. Notes/Daily Notes/2023-02-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Notes/JavaScript/Functions.md"
+                "file": "2. Notes/Daily Notes/2023-02-16.md"
               }
             }
           }
@@ -209,13 +209,13 @@
   },
   "active": "bdd8ea104ad3dfd1",
   "lastOpenFiles": [
+    "2. Notes/JavaScript/Functions.md",
     "1. MOC/JavaScript.md",
     "1. MOC/Ideas.md",
     "1. MOC/HTML.md",
     "1. MOC/Daily Notes.md",
     "1. MOC/CSS.md",
     "README.md",
-    "2. Notes/JavaScript/Functions.md",
     "2. Notes/JavaScript/Logic & Control Flow.md",
     "2. Notes/Daily Notes/2023-02-15.md",
     "2. Notes/Ideas/Agent Chat Support Solution.md"
