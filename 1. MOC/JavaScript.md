@@ -36,6 +36,8 @@ MOC: [JavaScript](JavaScript.md)
 * [Looping - While and For Loops](../2.%20Notes/JavaScript/Logic%20&%20Control%20Flow.md#Looping%20-%20While%20and%20For%20Loops)
 ---
 ## [Functions](../2.%20Notes/JavaScript/Functions.md)
+* [Defining functions](../2.%20Notes/JavaScript/Functions.md#Defining%20functions)
+* [Calling Functions](../2.%20Notes/JavaScript/Functions.md#Calling%20Functions)
 * [Declaring and Invoking Functions](../2.%20Notes/JavaScript/Functions.md#Declaring%20and%20Invoking%20Functions)
 * [Function Return](../2.%20Notes/JavaScript/Functions.md#Function%20Return)
 * [Arrow Functions](../2.%20Notes/JavaScript/Functions.md#Arrow%20Functions)
