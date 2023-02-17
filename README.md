@@ -8,6 +8,7 @@
 * [Conversation Review Process](2.%20Notes/Ideas/Conversation%20Review%20Process.md)
 * [Agent Chat Support Solution](2.%20Notes/Ideas/Agent%20Chat%20Support%20Solution.md)
 * [Senior Analyst Bot](2.%20Notes/Ideas/Senior%20Analyst%20Bot.md)
+* [Unlimited Multiplayer Chess](2.%20Notes/Ideas/Unlimited%20Multiplayer%20Chess.md)
 ## [JavaScript](1.%20MOC/JavaScript.md)
 * [Variables & Data Types](2.%20Notes/JavaScript/Variables%20&%20Data%20Types.md)
 * [Operators & Equality](2.%20Notes/JavaScript/Operators%20&%20Equality.md)
