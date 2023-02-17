@@ -14,4 +14,7 @@
 * [Operators & Equality](2.%20Notes/JavaScript/Operators%20&%20Equality.md)
 * [Logic & Control Flow](2.%20Notes/JavaScript/Logic%20&%20Control%20Flow.md)
 * [Functions](2.%20Notes/JavaScript/Functions.md)
-* [Scope - Hoisting - Closures](2.%20Notes/JavaScript/Scope%20-%20Hoisting%20-%20Closures.md)
+* [Scope](2.%20Notes/JavaScript/Scope.md)
+* [Hoisting](2.%20Notes/JavaScript/Hoisting.md)
+* [Closures](2.%20Notes/JavaScript/Closures.md)
+

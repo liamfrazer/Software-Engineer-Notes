@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"4. Meta/Templates\"",
@@ -38,14 +38,14 @@
   ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.21653645833333,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 1.83541666666667,
+  "lineSizeMultiplier": 2.14166666666667,
   "collapse-forces": false,
-  "centerStrength": 0.31640625,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.7132754626224427,
+  "centerStrength": 0.255208333333333,
+  "repelStrength": 11.3541666666667,
+  "linkStrength": 0.802083333333333,
+  "linkDistance": 204,
+  "scale": 0.5087618855792597,
   "close": true
 }

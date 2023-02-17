@@ -46,13 +46,18 @@ MOC: [JavaScript](JavaScript.md)
 * [Function Return](../2.%20Notes/JavaScript/Functions.md#Function%20Return)
 * [Arrow Functions](../2.%20Notes/JavaScript/Functions.md#Arrow%20Functions)
 * [Parameters vs Arguments](../2.%20Notes/JavaScript/Functions.md#Parameters%20vs%20Arguments)
+	* [Parameters](../2.%20Notes/JavaScript/Functions.md#Parameters)
+	* [Arguments](../2.%20Notes/JavaScript/Functions.md#Arguments)
 ---
-## [Scope - Hoisting - Closures](../2.%20Notes/JavaScript/Scope%20-%20Hoisting%20-%20Closures.md)
-* [Scope](../2.%20Notes/JavaScript/Scope%20-%20Hoisting%20-%20Closures.md#Scope)
-* [Hoisting](../2.%20Notes/JavaScript/Scope%20-%20Hoisting%20-%20Closures.md#Hoisting)
-* [Closures](../2.%20Notes/JavaScript/Scope%20-%20Hoisting%20-%20Closures.md#Closures)
+## [Scope](../2.%20Notes/JavaScript/Scope.md)
+* [Global scope](../2.%20Notes/JavaScript/Scope.md#Global%20scope)
+* [Local Scope](../2.%20Notes/JavaScript/Scope.md#Local%20Scope)
+* [Block Scope (only `let` & `const`)](../2.%20Notes/JavaScript/Scope.md#Block%20Scope%20(only%20`let`%20&%20`const`))
 ---
-
+## [Hoisting](../2.%20Notes/JavaScript/Hoisting.md)
+---
+## [Closures](../2.%20Notes/JavaScript/Closures.md)
+---
 
 
 

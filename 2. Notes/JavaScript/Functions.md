@@ -227,4 +227,27 @@ logAge('Liam', 27);
 ```console
 Liam is 27 years old.
 ```
+* If an argument is not pushed through to a parameter when expected, we can set a default value for this parameter
 
+```JavaScript
+const logAge = (name, age = 'unknown') => {
+    console.log(`${name} is ${age} years old.`);
+}
+
+logAge('Liam');
+```
+```console
+Liam is unknown years old.
+```
+
+```JavaScript
+const add = (a = 0, b = 0) => {
+    return a + b;
+}
+
+const result = add(2);
+console.log(result);
+```
+```console
+2
+```

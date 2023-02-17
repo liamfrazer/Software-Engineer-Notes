@@ -133,14 +133,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Notes/JavaScript/Functions.md",
+                "file": "2. Notes/JavaScript/Scope.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b40cebe4a9944ba6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Notes/JavaScript/Scope.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -206,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Notes/JavaScript/Functions.md",
+                "file": "2. Notes/JavaScript/Scope.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Notes/JavaScript/Functions.md",
+                "file": "2. Notes/JavaScript/Scope.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Notes/JavaScript/Functions.md"
+                "file": "2. Notes/JavaScript/Scope.md"
               }
             }
           }
@@ -267,17 +279,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90ae126cf9aea061",
+  "active": "b40cebe4a9944ba6",
   "lastOpenFiles": [
-    "2. Notes/JavaScript/Scope - Hoisting - Closures.md",
-    "README.md",
     "1. MOC/JavaScript.md",
+    "2. Notes/JavaScript/Hoisting.md",
+    "2. Notes/JavaScript/Closures.md",
+    "README.md",
+    "2. Notes/JavaScript/Scope.md",
     "2. Notes/JavaScript/Functions.md",
     "3. Meta/Templates/Daily Note.md",
     "1. MOC/Daily Notes.md",
     "3. Meta/Templates/console Code Block.md",
-    "2. Notes/Daily Notes/2023-02-17.md",
-    "1. MOC/Ideas.md",
-    "2. Notes/Ideas/Unlimited Multiplayer Chess.md"
+    "2. Notes/Daily Notes/2023-02-17.md"
   ]
 }
