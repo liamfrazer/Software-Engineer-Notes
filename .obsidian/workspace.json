@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "2. Notes/Daily Notes/2023-02-17.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "2. Notes/Daily Notes/2023-02-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "2. Notes/Daily Notes/2023-02-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "2. Notes/Daily Notes/2023-02-17.md"
               }
             }
           }
@@ -233,11 +233,11 @@
   },
   "active": "8ee806410a334417",
   "lastOpenFiles": [
+    "README.md",
     "1. MOC/Ideas.md",
     "2. Notes/Ideas/Unlimited Multiplayer Chess.md",
     "2. Notes/JavaScript/Functions.md",
     "1. MOC/JavaScript.md",
-    "README.md",
     "2. Notes/Ideas/Senior Analyst Bot.md",
     "2. Notes/Daily Notes/2023-02-16.md",
     "1. MOC/HTML.md",
