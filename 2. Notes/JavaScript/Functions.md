@@ -166,16 +166,65 @@ true
 
 
 ## Arrow Functions
+* Arrow functions only have one difference from 'normal' functions.
+* Arrow functions do not create their own `this` value
+* `this` is a special JavaScript reserved keyword
+* The most modern way of declaring functions is using something known as arrow functions
+```JavaScript
+const square = (number) => {
+    return number * number;
+}
 
+const result = square(5)
+console.log(result)
+```
+* Arrow functions also have a shorter and more concise version
+* Whenever we only have one return statement inside of the function, we can run it instantly within one line
+```JavaScript
+const square = number => number * number;
+const result = square(5)
+console.log(result)
+```
+```console
+25
+```
+* Arrow functions are similar to function expressions.
+* They're concise and often used for one liners.
+* People use arrow functions they they want to `see` the same `this` inside of them as in the code surrounding them.
+* When you write `this` inside of an arrow function, it uses `this` of the closest `regular` function above
 
 ## Parameters vs Arguments
+* There are two important distinctions between the terms parameters and arguments
+### Parameters
+* Parameters are used when defining a function
+* They are the `names` created in the function definition.
+* Parameter is like a variable that is only meaningful inside of this function.
+* It won't be accessible outside of the function.
+### Arguments
+* Arguments are real values passed to the function when making a function call.
+* In the example below, we would say that our function accepts one parameter.
+* Parameters can be named anything, the only thing that matters is the order
+```JavaScript
+const sayHi = firstName => console.log(`Hi, ${firstName}`);
+sayHi('Liam');
+```
+```console
+Hi, Liam
+```
+* Parameters are just names we create for the arguments we're planning to pass into the function.
+* When calling the function, we have one argument
+* The argument is a real JavaScript value, in this case a string of `Liam`
+* In the code example below, we're going to add another parameter
+* We'll need to add a second parameter, separated by a coma to take both the name and age
+* We'll also need to provide an argument to fill the value of age
+```JavaScript
+const logAge = (name, age) => {
+    console.log(`${name} is ${age} years old.`);
+}
 
-
-## Scope
-
-
-## Hoisting
-
-
-## Closures
+logAge('Liam', 27);
+```
+```console
+Liam is 27 years old.
+```
 

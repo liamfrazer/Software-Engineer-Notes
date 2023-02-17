@@ -46,9 +46,12 @@ MOC: [JavaScript](JavaScript.md)
 * [Function Return](../2.%20Notes/JavaScript/Functions.md#Function%20Return)
 * [Arrow Functions](../2.%20Notes/JavaScript/Functions.md#Arrow%20Functions)
 * [Parameters vs Arguments](../2.%20Notes/JavaScript/Functions.md#Parameters%20vs%20Arguments)
-* [Scope](../2.%20Notes/JavaScript/Functions.md#Scope)
-* [Hoisting](../2.%20Notes/JavaScript/Functions.md#Hoisting)
-* [Closures](../2.%20Notes/JavaScript/Functions.md#Closures)
+---
+## [Scope - Hoisting - Closures](../2.%20Notes/JavaScript/Scope%20-%20Hoisting%20-%20Closures.md)
+* [Scope](../2.%20Notes/JavaScript/Scope%20-%20Hoisting%20-%20Closures.md#Scope)
+* [Hoisting](../2.%20Notes/JavaScript/Scope%20-%20Hoisting%20-%20Closures.md#Hoisting)
+* [Closures](../2.%20Notes/JavaScript/Scope%20-%20Hoisting%20-%20Closures.md#Closures)
+---
 
 
 
