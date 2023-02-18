@@ -55,6 +55,8 @@ MOC: [JavaScript](JavaScript.md)
 * [Block Scope (only `let` & `const`)](../2.%20Notes/JavaScript/Scope.md#Block%20Scope%20(only%20`let`%20&%20`const`))
 ---
 ## [Hoisting](../2.%20Notes/JavaScript/Hoisting.md)
+* [Variable Hoisting](../2.%20Notes/JavaScript/Hoisting.md#Variable%20Hoisting)
+* [Function Hoisting](../2.%20Notes/JavaScript/Hoisting.md#Function%20Hoisting)
 ---
 ## [Closures](../2.%20Notes/JavaScript/Closures.md)
 ---
