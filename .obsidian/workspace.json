@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Notes/JavaScript/Closures.md",
+                "file": "2. Notes/Daily Notes/2023-02-18.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Notes/JavaScript/Closures.md",
+                "file": "2. Notes/Daily Notes/2023-02-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Notes/JavaScript/Closures.md",
+                "file": "2. Notes/Daily Notes/2023-02-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Notes/JavaScript/Closures.md"
+                "file": "2. Notes/Daily Notes/2023-02-18.md"
               }
             }
           }
@@ -281,13 +281,13 @@
   },
   "active": "b40cebe4a9944ba6",
   "lastOpenFiles": [
-    "2. Notes/JavaScript/Hoisting.md",
     "1. MOC/JavaScript.md",
+    "README.md",
+    "2. Notes/JavaScript/Closures.md",
+    "2. Notes/JavaScript/Hoisting.md",
     "2. Notes/Daily Notes/2023-02-18.md",
     "2. Notes/Daily Notes/2023-02-17.md",
     "2. Notes/JavaScript/Scope.md",
-    "2. Notes/JavaScript/Closures.md",
-    "README.md",
     "2. Notes/JavaScript/Functions.md",
     "3. Meta/Templates/Daily Note.md",
     "1. MOC/Daily Notes.md"
