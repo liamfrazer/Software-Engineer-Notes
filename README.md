@@ -17,4 +17,5 @@
 * [Scope](2.%20Notes/JavaScript/Scope.md)
 * [Hoisting](2.%20Notes/JavaScript/Hoisting.md)
 * [Closures](2.%20Notes/JavaScript/Closures.md)
+* [Strings in detail](2.%20Notes/JavaScript/Strings%20in%20detail.md)
 

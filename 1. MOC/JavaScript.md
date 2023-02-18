@@ -60,6 +60,14 @@ MOC: [JavaScript](JavaScript.md)
 ---
 ## [Closures](../2.%20Notes/JavaScript/Closures.md)
 ---
-
+## [Strings in detail](../2.%20Notes/JavaScript/Strings%20in%20detail.md)
+* [Strings intro](../2.%20Notes/JavaScript/Strings%20in%20detail.md#Strings%20intro)
+* [String Length and Basic Properties](../2.%20Notes/JavaScript/Strings%20in%20detail.md#String%20Length%20and%20Basic%20Properties)
+* [Change String Case](../2.%20Notes/JavaScript/Strings%20in%20detail.md#Change%20String%20Case)
+* [Searching for a Substring](../2.%20Notes/JavaScript/Strings%20in%20detail.md#Searching%20for%20a%20Substring)
+* [Getting a Substring](../2.%20Notes/JavaScript/Strings%20in%20detail.md#Getting%20a%20Substring)
+* [Split a String](../2.%20Notes/JavaScript/Strings%20in%20detail.md#Split%20a%20String)
+* [Reverse, Repeat and Trim a String](../2.%20Notes/JavaScript/Strings%20in%20detail.md#Reverse,%20Repeat%20and%20Trim%20a%20String)
+---
 
 
