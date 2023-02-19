@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. MOC/JavaScript.md",
+                "file": "2. Notes/Daily Notes/2023-02-19.md",
                 "mode": "source",
                 "source": false
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. MOC/JavaScript.md",
+                "file": "2. Notes/Daily Notes/2023-02-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. MOC/JavaScript.md",
+                "file": "2. Notes/Daily Notes/2023-02-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. MOC/JavaScript.md"
+                "file": "2. Notes/Daily Notes/2023-02-19.md"
               }
             }
           }
@@ -293,10 +293,10 @@
   },
   "active": "64ebe3944302af06",
   "lastOpenFiles": [
+    "1. MOC/JavaScript.md",
     "README.md",
     "2. Notes/JavaScript/Arrays in Detail.md",
     "2. Notes/JavaScript/Strings in detail.md",
-    "1. MOC/JavaScript.md",
     "2. Notes/JavaScript/Variables & Data Types.md",
     "2. Notes/JavaScript/Scope.md",
     "2. Notes/JavaScript/Operators & Equality.md",
