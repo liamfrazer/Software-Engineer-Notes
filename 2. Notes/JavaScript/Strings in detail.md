@@ -250,3 +250,45 @@ const exampleString = "              JavaScript               ";
 const trimmedString = exampleString.trim();
 console.log(trimmedString); // JavaScript
 ```
+
+
+## String Exercise
+
+```JavaScript
+const guestList = 'Our guests are: Emma, Jacob, Isabella, Ethan';
+```
+1. Get a length of the string.
+2. Store it in a variable called `length`
+```JavaScript
+const guestList = 'Our guests are: Emma, Jacob, Isabella, Ethan';
+length = guestList.length
+console.log(length); // 44
+```
+3. Uppercase the entire string.
+4. Store the result in a variable called `uppercasedGuestList`
+```JavaScript
+const guestList = 'Our guests are: Emma, Jacob, Isabella, Ethan';
+length = guestList.length
+uppercasedGuestList = guestList.toUpperCase();
+
+console.log(length); // 44
+console.log(uppercasedGuestList); // OUR GUESTS ARE: EMMA, JACOB, ISABELLA, ETHAN
+```
+5. Check whether `ETHAN` is on the `upperCasedGuestList`
+6. Store the answer in a variable called `isEthanOnTheList`
+```JavaScript
+const guestList = 'Our guests are: Emma, Jacob, Isabella, Ethan';
+length = guestList.length
+uppercasedGuestList = guestList.toUpperCase();
+isEthanOnTheList = uppercasedGuestList.includes('ETHAN');
+
+console.log(length); // 44
+console.log(uppercasedGuestList); // OUR GUESTS ARE: EMMA, JACOB, ISABELLA, ETHAN
+console.log(isEthanOnTheList); // true
+```
+7. Create a substring that only contains the following: `EMMA, JACOB, ISABELLA, ETHAN`
+8. Store the answer in a variable called `substringGuests`
+```JavaScript
+
+```
+
