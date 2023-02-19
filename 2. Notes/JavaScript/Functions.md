@@ -123,11 +123,9 @@ function add(a, b) {
 
 const sum = add(2, 2);
 
-console.log(sum);
+console.log(sum); // 4
 ```
-```console
-4
-```
+
 * This is a function that will return the sum of numbers `a` and `b`
 * We then invoke the function and save the return value to the variable `sum`
 * We then print the value with `console.log(sum)`
@@ -138,11 +136,9 @@ function test() {
     return false;
 };
 
-console.log(test());
+console.log(test()); // true
 ```
-```console
-true
-```
+
 * The first return statement above immediately stops execution of our function
 * This causes our function to return `true'
 * The code `return false` is never executed
@@ -184,11 +180,9 @@ console.log(result)
 ```JavaScript
 const square = number => number * number;
 const result = square(5)
-console.log(result)
+console.log(result) // 25
 ```
-```console
-25
-```
+
 * Arrow functions are similar to function expressions.
 * They're concise and often used for one liners.
 * People use arrow functions they they want to `see` the same `this` inside of them as in the code surrounding them.
@@ -247,8 +241,6 @@ const add = (a = 0, b = 0) => {
 }
 
 const result = add(2);
-console.log(result);
+console.log(result); // 2
 ```
-```console
-2
-```
+

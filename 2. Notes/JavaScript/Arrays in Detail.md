@@ -9,6 +9,7 @@ Tags: #Arrays #Methods #ForEach #Map #Filter #Find #Includes #Sort #Some #Every 
 ## Arrays Intro
 * We will often need an ordered collection, we use `arrays` to store ordered collections
 * Array elements are numbered, starting with zero
+* The datatype of an array is an object
 
 ### Declaration
 ```JavaScript
@@ -73,6 +74,27 @@ April
 ```
 
 ## Methods
+* Arrays contain a variety of premade functions which can manipulate the data
+* Such as adding, removing, manipulating elements at certain positions
+
+### `array.push(value)`
+* The `array.push()` function adds a new elements, containing the entered variable, to the end of the array.
+```JavaScript
+const names = ["Liam", "Michael", "Frazer"];
+console.log(names); // ['Liam', 'Michael', 'Frazer']
+
+names.push("Dean");
+console.log(names); // ['Liam', 'Michael', 'Frazer', 'Dean']
+```
+* `array.push()` returns the length of the array when the element is pushed
+```JavaScript
+const names = ["Liam", "Michael", "Frazer"];
+const length = names.push("Dean")
+
+console.log(names); // ['Liam', 'Michael', 'Frazer', 'Dean']
+console.log(length); // 4
+```
+
 
 ## ForEach
 

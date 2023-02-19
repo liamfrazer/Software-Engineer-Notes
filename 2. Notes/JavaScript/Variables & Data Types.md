@@ -113,10 +113,7 @@ const decimalNumber = 0.5;
 const firstNumber = 5;
 const secondNumber = 10;
 const result = firstNumber + secondNumber;
-console.log(result);
-```
-```JavaScript
-15
+console.log(result); // 15
 ```
 
 ## NaN
@@ -127,10 +124,7 @@ console.log(result);
 const firstNumber = "test";
 const secondNumber = 10;
 const result = firstNumber / secondNumber;
-console.log(result);
-```
-```JavaScript
-NaN
+console.log(result); // NaN
 ```
 
 ## Booleans
@@ -172,10 +166,7 @@ let age = null;
 * If a variable is declared but not assigned, then its value is `undefined` by default
 ```JavaScript
 let x;
-console.log(x);
-```
-```JavaScript
-undefined
+console.log(x); // undefined
 ```
 
 ## Undefined vs Null

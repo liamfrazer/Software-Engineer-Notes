@@ -37,7 +37,7 @@ if (dogs) {
     console.log("You have no dogs.");
 }
 ```
-```JavaScript
+```console
 You have 5 dogs.
 ```
 
@@ -71,11 +71,9 @@ if (1) {
 
 ### AND Operator
 ```JavaScript
-console.log('truthy' && 1 && 999);
+console.log('truthy' && 1 && 999); // 999
 ```
-```JavaScript
-999
-```
+
 * The && operator does the following:
 	* It evaluates operands from left to right.
 	* It converts them to a Boolean value.
@@ -85,11 +83,9 @@ console.log('truthy' && 1 && 999);
 * The above code returns 999 as all values were `truthy` and 999 is the last value on the list.
 
 ```JavaScript
-console.log('truthy' && 0 && 999);
+console.log('truthy' && 0 && 999); // 0
 ```
-```JavaScript
-0
-```
+
 * If one falsy value exists, it's going to stop and immediately return that value.
 * If other words, AND returns the first falsy value or the last truthy value, if no falsy values have been found
 
@@ -100,18 +96,13 @@ console.log('truthy' && 0 && 999);
 	* If all operands have been evaluated to falsy, it returns the last operand
 * In other words, a chain of OR returns the first truthy value, or the last one if no truthy value is found.
 ```JavaScript
-console.log('truthy' || 0 || 'test' || 999);
-```
-```JavaScript
-truthy
+console.log('truthy' || 0 || 'test' || 999); // truthy
 ```
 
 ```JavaScript
-console.log('' || 0 || null || undefined);
+console.log('' || 0 || null || undefined); // undefined
 ```
-```JavaScript
-undefined
-```
+
 * If all the values were changed to falsy, it is going to return the last one
 
 ### Not Operator
@@ -122,7 +113,7 @@ undefined
 console.log(!true);
 console.log(!false);
 ```
-```JavaScript
+```console
 false
 true
 ```
@@ -131,7 +122,7 @@ true
 console.log(!!"truthy");
 console.log(!!null);
 ```
-```JavaScript
+```console
 true
 false
 ```
@@ -161,7 +152,7 @@ switch (superHero) {
         break;
 }
 ```
-```JavaScript
+```console
 Captain America
 ```
 * In the example above, we passed the `superHero` variable to the switch statement
@@ -195,7 +186,7 @@ switch (superHero) {
 
 }
 ```
-```JavaScript
+```console
 Please enter a valid superhero name:
 ```
 
@@ -225,7 +216,7 @@ if (person.age >= 18) {
     console.log('Not legal age to drive');
 }
 ```
-```JavaScript
+```console
 Legal age to drive
 ```
 
@@ -237,7 +228,7 @@ const person = {
 
 person.age >= 18 ? console.log('Legal age to drive') : console.log('Not legal age to drive');
 ```
-```JavaScript
+```console
 Legal age to drive
 ```
 

@@ -69,11 +69,9 @@ function hoist() {
     return message;
 }
 
-console.log(hoist());
+console.log(hoist()); // Hoisting is cool!
 ```
-```console
-Hoisting is cool!
-```
+
 * The variable declaration `var message` whose scope is in the function `hoist()` is hosted to the top of the function
 
 * Always declare variables exactly where they should be, at the top of the scope they're used in

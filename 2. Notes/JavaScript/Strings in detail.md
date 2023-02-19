@@ -19,19 +19,15 @@ const backticks = `This is a string written inside of backticks`;
 * Strings created with backticks provide extended functionality
 * Backticks strings are dynamic, they allow us to execute JavaScript logic
 ```JavaScript
-console.log(`${2 + 2}`);
+console.log(`${2 + 2}`); // 4
 ```
-```console
-4
-```
+
 * This also means we can make function calls inside of backtick strings
 ```JavaScript
 const sum = (a, b) => a + b;
-console.log(`The sum is ${sum(2, 2)}.`);
+console.log(`The sum is ${sum(2, 2)}.`); // The sum is 4.
 ```
-```console
-The sum is 4.
-```
+
 * Backtick strings can also be used across multiple lines.
 * Single or double quote strings would create an error if we did this
 ```JavaScript
@@ -62,35 +58,27 @@ Hi, I'm Liam, "Liam Frazer".
 ### String Length
 ```JavaScript
 const name = 'Liam'
-console.log(name.length);
+console.log(name.length); // 4
 ```
-```console
-4
-```
+
 ### First letter of a string
 ```JavaScript
 const name = 'Liam'
-console.log(name[0]);
+console.log(name[0]); // L
 ```
-```console
-L
-```
+
 ### Last letter of a string
 ```JavaScript
 const name = 'Liam'
-console.log(name[name.length - 1]);
+console.log(name[name.length - 1]); // M
 ```
-```console
-M
-```
+
 * Name of 3 is the last letter, because we always start from 0 and not 1
 ```JavaScript
 const name = 'Liam'
-console.log(name[4]);
+console.log(name[4]); // undefined
 ```
-```console
-undefined
-```
+
 
 ## Change String Case
 * In JavaScript, there are only two simple methods for changing the character case
