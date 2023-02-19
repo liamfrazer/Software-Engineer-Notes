@@ -221,6 +221,19 @@ const reverseString = exampleString.split('').reverse().join('');
 console.log(reverseString); // tpircSavaJ
 ```
 
+* Creating a reverse function
+```JavaScript
+const reverse = (string) => {
+    reverseString = string.split('').reverse().join('');
+    return reverseString;
+}
+
+string = reverse("Test");
+
+console.log(string); // tseT
+```
+
+
 ### Repeat
 * The `str.repeat()` method can be used to repeat a string an `X` number of times
 ```JavaScript
