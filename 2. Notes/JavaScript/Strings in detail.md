@@ -175,7 +175,65 @@ console.log(exampleString.endsWith('.')); // false
 
 ## Getting a Substring
 
+### `str.slice()`
+* The best method of getting a substring of a string is `str.slice()`
+* `str.slice(start [, end]` will return the part of the string from `start`, to but not including `end`
+```JavaScript
+const exampleString = "JavaScript is a great language to learn";
+console.log(exampleString.slice(0, 10)); // JavaScript
+```
+
 ## Split a String
+
+### `str.split()`
+* Sometimes, we may want to split the string into multiple substrings
+* To do this, we would be using the string method `str.split()`
+* Below, we can split a sentence into words:
+```JavaScript
+const exampleString = "JavaScript is a great language to learn";
+console.log(exampleString.split(' '));
+```
+```console
+1.  (7) ['JavaScript', 'is', 'a', 'great', 'language', 'to', 'learn']
+
+1.  0: "JavaScript"
+2.  1: "is"
+3.  2: "a"
+4.  3: "great"
+5.  4: "language"
+6.  5: "to"
+7.  6: "learn"
+8.  length: 7
+9.  [[Prototype]]: Array(0)
+```
 
 ## Reverse, Repeat and Trim a String
 
+### Reverse
+* Reverse is not a built in string method, but once a string is split, this create an array, which we can reverse
+* In the process below we:
+	1. Split a string 
+	2. Reverse the newly create array 
+	3. Turn the array back into a string using `join()`
+```JavaScript
+const exampleString = "JavaScript";
+const reverseString = exampleString.split('').reverse().join('');
+console.log(reverseString); // tpircSavaJ
+```
+
+### Repeat
+* The `str.repeat()` method can be used to repeat a string an `X` number of times
+```JavaScript
+const exampleString = "JavaScript";
+const repeatString = exampleString.repeat(5);
+console.log(repeatString); // JavaScriptJavaScriptJavaScriptJavaScriptJavaScript
+```
+
+### Trim
+* The `str.trim()` method can be useful to clean up user input
+* In the example below, we can trim the empty spaces around the input
+```JavaScript
+const exampleString = "              JavaScript               ";
+const trimmedString = exampleString.trim();
+console.log(trimmedString); // JavaScript
+```
