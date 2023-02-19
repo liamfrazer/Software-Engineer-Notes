@@ -261,6 +261,7 @@ const guestList = 'Our guests are: Emma, Jacob, Isabella, Ethan';
 2. Store it in a variable called `length`
 ```JavaScript
 const guestList = 'Our guests are: Emma, Jacob, Isabella, Ethan';
+
 length = guestList.length
 console.log(length); // 44
 ```
@@ -268,6 +269,7 @@ console.log(length); // 44
 4. Store the result in a variable called `uppercasedGuestList`
 ```JavaScript
 const guestList = 'Our guests are: Emma, Jacob, Isabella, Ethan';
+
 length = guestList.length
 uppercasedGuestList = guestList.toUpperCase();
 
@@ -278,6 +280,7 @@ console.log(uppercasedGuestList); // OUR GUESTS ARE: EMMA, JACOB, ISABELLA, ETHA
 6. Store the answer in a variable called `isEthanOnTheList`
 ```JavaScript
 const guestList = 'Our guests are: Emma, Jacob, Isabella, Ethan';
+
 length = guestList.length
 uppercasedGuestList = guestList.toUpperCase();
 isEthanOnTheList = uppercasedGuestList.includes('ETHAN');
@@ -288,6 +291,23 @@ console.log(isEthanOnTheList); // true
 ```
 7. Create a substring that only contains the following: `EMMA, JACOB, ISABELLA, ETHAN`
 8. Store the answer in a variable called `substringGuests`
+```JavaScript
+const guestList = 'Our guests are: Emma, Jacob, Isabella, Ethan';
+
+length = guestList.length
+uppercasedGuestList = guestList.toUpperCase();
+isEthanOnTheList = uppercasedGuestList.includes('ETHAN');
+subStringSlice = uppercasedGuestList.indexOf(':') + 2;
+subStringGuests = uppercasedGuestList.slice(subStringSlice);
+
+console.log(length); // 44
+console.log(uppercasedGuestList); // OUR GUESTS ARE: EMMA, JACOB, ISABELLA, ETHAN
+console.log(isEthanOnTheList); // true
+console.log(subStringSlice); // 16
+console.log(subStringGuests); // EMMA, JACOB, ISABELLA, ETHAN
+```
+9. Out of the substring you just created, create an array of names of people that are on the list.
+10. Store that array in a variable called `guests`
 ```JavaScript
 
 ```
