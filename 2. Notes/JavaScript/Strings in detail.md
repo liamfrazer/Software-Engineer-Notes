@@ -1,5 +1,6 @@
 Date: 2023-02-18
 MOC: [JavaScript](../../1.%20MOC/JavaScript.md)
+Reference: [JavaScript Mastery Pro][https://javascript-mastery.teachable.com/courses/849847/]
 Tags: #Strings #Length #Case #Search #SubString #Getting #Split #Reverse #Repeat #Trim
 
 ---
@@ -309,6 +310,19 @@ console.log(subStringGuests); // EMMA, JACOB, ISABELLA, ETHAN
 9. Out of the substring you just created, create an array of names of people that are on the list.
 10. Store that array in a variable called `guests`
 ```JavaScript
+const guestList = 'Our guests are: Emma, Jacob, Isabella, Ethan';
+const length = guestList.length
+const uppercasedGuestList = guestList.toUpperCase();
+const isEthanOnTheList = uppercasedGuestList.includes('ETHAN');
+const subStringSlice = uppercasedGuestList.indexOf(':') + 2;
+const subStringGuests = uppercasedGuestList.slice(subStringSlice);
+const guests = subStringGuests.split(', ');
 
+console.log(length); // 44
+console.log(uppercasedGuestList); // OUR GUESTS ARE: EMMA, JACOB, ISABELLA, ETHAN
+console.log(isEthanOnTheList); // true
+console.log(subStringSlice); // 16
+console.log(subStringGuests); // EMMA, JACOB, ISABELLA, ETHAN
+console.log(guests); // (4) ['EMMA', 'JACOB', 'ISABELLA', 'ETHAN']
 ```
 

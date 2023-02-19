@@ -70,5 +70,15 @@ MOC: [JavaScript](JavaScript.md)
 * [Reverse, Repeat and Trim a String](../2.%20Notes/JavaScript/Strings%20in%20detail.md#Reverse,%20Repeat%20and%20Trim%20a%20String)
 * [String Exercise](../2.%20Notes/JavaScript/Strings%20in%20detail.md#String%20Exercise)
 ---
+## [Arrays in Detail](../2.%20Notes/JavaScript/Arrays%20in%20Detail.md)
+* [Arrays Intro](../2.%20Notes/JavaScript/Arrays%20in%20Detail.md#Arrays%20Intro)
+* [Methods](../2.%20Notes/JavaScript/Arrays%20in%20Detail.md#Methods)
+* [ForEach](../2.%20Notes/JavaScript/Arrays%20in%20Detail.md#ForEach)
+* [Map](../2.%20Notes/JavaScript/Arrays%20in%20Detail.md#Map)
+* [Filter](../2.%20Notes/JavaScript/Arrays%20in%20Detail.md#Filter)
+* [Find](../2.%20Notes/JavaScript/Arrays%20in%20Detail.md#Find)
+* [Includes](../2.%20Notes/JavaScript/Arrays%20in%20Detail.md#Includes)
+* [Sort](../2.%20Notes/JavaScript/Arrays%20in%20Detail.md#Sort)
+---
 
 
