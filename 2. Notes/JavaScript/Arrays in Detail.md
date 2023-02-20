@@ -163,6 +163,68 @@ console.log(removedValues); // ['Frazer']
 
 
 ## ForEach
+* The `array.forEach` method performs an action for each element in the array
+* The standard `for loop` can do the same, but the `array.ForEach` method can replace this
+```JavaScript
+let names = ['Liam', 'Michael', 'Frazer']
+for (let i = 0; i < names.length; i++) {
+    console.log(i, names[i]);
+}
+```
+```console
+0 'Liam'
+1 'Michael'
+2 'Frazer'
+```
+* In the example above, we have to declare and initialise another variable `i`
+* Then the loop compares it every time with the `array.length` 
+* If the expression evaluates to true, then only the loop executes
+* After the loop body is executed, the value of `i` increments by one
+* We can eliminate this process using `array.forEach` method
+
+### Syntax for `array.forEach`
+```JavaScript
+array.forEach((value, inidex) => {
+	// ...
+});
+```
+
+```JavaScript
+let names = ['Liam', 'Michael', 'Frazer'];
+
+names.forEach((value, index) => {
+    console.log(value, index);
+
+});
+```
+```console
+Liam 0
+Michael 1
+Frazer 2
+```
+* The first argument of the `forEach` method is the function that you want to execute for each element of the loop.
+* This `callback function` can have three arguments.
+* The first argument is the value of the current element the loop is on
+* The second argument is the index of the current value
+
+### Using a named function as a Callback
+```JavaScript
+let names = ['Liam', 'Michael', 'Frazer'];
+
+function logArrayElement(element, index) {
+    console.log(element, index);
+}
+
+names.forEach(logArrayElement)
+```
+```console
+Liam 0
+Michael 1
+Frazer 2
+```
+
+
+
 
 ## Map
 
