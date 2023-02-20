@@ -221,10 +221,53 @@ const employeeNames = goodEmployee.map((employee) => employee.name);
 console.log(employeeNames); // ['Cardi Vee', 'George Lopez']
 ```
 
+#### Filter, Map & ForEach
+```JavaScript
+const employeesData = [
+    { name: "Sebastian", overtime: 5 },
+    { name: "Cardi Vee", overtime: 10 },
+    { name: "George Lopez", overtime: 12 }
+];
+
+const goodEmployee = employeesData.filter((employee) => employee.overtime >= 7);
+const employeeNames = goodEmployee.map((employee) => employee.name);
+employeeNames.forEach((name) => console.log(`${name} received an award`));
+```
+```console
+Cardi Vee received an award
+George Lopez received an award
+```
 
 ## Find
+* The `array.find` method for arrays returns the first value that matches its condition
+#### Example 1
+```JavaScript
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const value = numbers.find((number) => number > 5);
+console.log(value); // 6
+```
+
+#### Example 2
+```JavaScript
+const states = ['Alaska', 'California', 'Colorado', 'Hawaii'];
+const state = states.find((state) => state.startsWith('C'));
+console.log(state); // California
+```
 
 ## Includes
+* The `array.includes()` method checks if an array contains a certain value
+* This will then return the Boolean `true` or `false` 
+
+```JavaScript
+const bookshelf = ["Moby dick", "Little Women", "The Great Gatsby", "Pride and Prejudice"];
+
+if (bookshelf.includes("Moby dick") === true) {
+    console.log(`We found the correct book.`); // We found the correct book.
+} else {
+    console.log(`We could not find the correct book.`);
+}
+```
+
 
 ## Sort
 
