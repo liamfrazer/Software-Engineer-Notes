@@ -147,8 +147,11 @@ console.log(items); // ['eggs', 'ham', 'mayo', 'bread']
 
 ## Filter
 * The `array.filter()` method filters certain elements from an array.
+* An equivalent of a filter is a `for` loop with an `if statement`
 
 ### Example 1
+
+#### Named Function
 ```JavaScript
 const numbers = [-10, 0, -2, 15, -36, 25] // Array of positive and negative numbers
 
@@ -159,12 +162,28 @@ const positiveNumber = numbers.filter((number) => {
 console.log(positiveNumber); // [0, 15, 25]
 ```
 
+#### Arrow Function
 ```JavaScript
 const numbers = [-10, 0, -2, 15, -36, 25] // Array of positive and negative numbers
 const positiveNumber = numbers.filter((number) => number >= 0);
 
 console.log(positiveNumber); // [0, 15, 25]
 ```
+
+#### For loop equivalent
+```JavaScript
+const numbers = [-10, 0, -2, 15, -36, 25] // Array of positive and negative numbers
+const positiveNumbers = [] // Empty array to push For Loop results into
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] >= 0) {
+        positiveNumbers.push(numbers[i])
+    }
+}
+
+console.log(positiveNumbers); // [0, 15, 25]
+```
+
 
 ### Example 2
 ```JavaScript
