@@ -150,6 +150,16 @@ console.log(names); // ['Michael', 'Frazer']
 console.log(removedValues); // ['Liam']
 ```
 
+### `array.slice()`
+* Slice can make a new variable that contains every element from a certain point on in whatever array you feed it
+* This does not remove it from the array
+```JavaScript
+const names = ["Liam", "Michael", "Frazer"];
+const removedValues = names.slice(2)
+
+console.log(names); // ['Liam', 'Michael', 'Frazer']
+console.log(removedValues); // ['Frazer']
+```
 
 
 ## ForEach
