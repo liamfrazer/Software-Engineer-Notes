@@ -1,6 +1,6 @@
 Date: 2023-02-18
 MOC: [JavaScript](../../1.%20MOC/JavaScript.md)
-Reference: [JavaScript Mastery Pro][https://javascript-mastery.teachable.com/courses/849847/]
+Reference: https://javascript-mastery.teachable.com/courses/849847/
 Tags: #Strings #Length #Case #Search #SubString #Getting #Split #Reverse #Repeat #Trim
 
 ---

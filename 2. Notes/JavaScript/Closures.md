@@ -1,6 +1,6 @@
 Date: 2023-02-17
 MOC: [JavaScript](../../1.%20MOC/JavaScript.md)
-Reference: [JavaScript Mastery Pro][https://javascript-mastery.teachable.com/courses/849847/]
+Reference: https://javascript-mastery.teachable.com/courses/849847/
 Tags: #Closures
 
 ---

@@ -18,5 +18,5 @@
 * [Hoisting](2.%20Notes/JavaScript/Hoisting.md)
 * [Closures](2.%20Notes/JavaScript/Closures.md)
 * [Strings in detail](2.%20Notes/JavaScript/Strings%20in%20detail.md)
-* [Arrays in Detail](2.%20Notes/JavaScript/Arrays%20in%20Detail.md)
+* [Array Declaration & Simple Methods](2.%20Notes/JavaScript/Array%20Declaration%20&%20Simple%20Methods.md)
 
