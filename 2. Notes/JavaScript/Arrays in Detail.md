@@ -207,7 +207,7 @@ Frazer 2
 * The first argument is the value of the current element the loop is on
 * The second argument is the index of the current value
 
-### Using a named function as a Callback
+### Using a named function as a Call-back
 ```JavaScript
 let names = ['Liam', 'Michael', 'Frazer'];
 
@@ -222,6 +222,39 @@ Liam 0
 Michael 1
 Frazer 2
 ```
+* You have to make sure that the order of the arguments in the predefined/named function used as the call-back is the same as the syntax requires
+
+### Return value of `array.forEach()`
+* This method returns `undefined` and this method is not chainable
+* You can't call one method after another on an array when using `forEach` method
+* You cannot use cascading notation with `forEach method`
+* This method is used to execute side effects at the end of the chain
+* Such as logging all the elements in the array after performing a series of actions on the array
+
+### Usage
+
+#### Use When
+1. Callback function is to be executed on every single element of the array
+2. Improve performance (provided first condition is satisfied)
+
+#### Don't use when
+1. You want to stop or break the loop when some condition is true
+2. For example, you want to console log elements of `myArray` but break the loop if the value of the current element is `X`. This is compulsorily to use the standard for loop to be able to do so
+3. The callback function is asynchronous. Instead use the standard for loop
+
+### Example
+```JavaScript
+let sum = 0;
+const numbers = [65, 44, 12, 4]
+
+numbers.forEach((item) => {
+    sum += item;
+});
+
+console.log(sum); // 125
+```
+
+
 
 
 
