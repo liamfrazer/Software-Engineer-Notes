@@ -95,6 +95,62 @@ console.log(names); // ['Liam', 'Michael', 'Frazer', 'Dean']
 console.log(length); // 4
 ```
 
+### `array.pop()`
+* The `array.pop()` function will delete the last element of an array
+* `array.pop()` does not return the final length of the array, but returns the value of the remove element.
+* This can be great for transferring data between two arrays
+* This can also be used to give the value one final use before popping it into the void
+```JavaScript
+const names = ["Liam", "Michael", "Frazer"];
+const removedValue = names.pop()
+
+console.log(names); // ['Liam', 'Michael']
+console.log(removedValue); // Frazer
+```
+
+### `array.shift()`
+* Shift works almost like pop, but deletes the first value in an array and moves the rest backwards
+* `array.shift()` will also return the 'popped' value
+```JavaScript
+const names = ["Liam", "Michael", "Frazer"];
+const removedValue = names.shift()
+
+console.log(names); // ['Michael','Frazer']
+console.log(removedValue); // Liam
+```
+
+### `array.unshift(value)`
+* `array.unshift` adds a new value at the start of an array, instead of the end
+* Much like `push`, it returns the new array length
+```JavaScript
+const names = ["Liam", "Michael", "Frazer"];
+const length = names.unshift('Mr')
+
+console.log(names); // ['Mr', 'Liam', 'Michael', 'Frazer']
+console.log(length); // 4
+```
+
+### `array.splice()`
+* The splice method allows you to `splice` values into the array.
+* The first parameter determines where the new element or elements are placed
+* The second parameter demines how many after that point should be deleted before placement
+* Each subsequent condition is merely an element you wish to add
+* This will also return an array of any deleted items, like `pop`
+```JavaScript
+const names = ["Liam", "Michael", "Frazer"];
+names.splice(2, 0, "Mr", "test");
+
+console.log(names); // ['Liam', 'Michael', 'Mr', 'test', 'Frazer']
+```
+```JavaScript
+const names = ["Liam", "Michael", "Frazer"];
+const removedValues = names.splice(0, 1)
+
+console.log(names); // ['Michael', 'Frazer']
+console.log(removedValues); // ['Liam']
+```
+
+
 
 ## ForEach
 
