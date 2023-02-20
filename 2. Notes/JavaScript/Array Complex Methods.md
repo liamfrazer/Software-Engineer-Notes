@@ -186,8 +186,39 @@ console.log(positiveNumbers); // [0, 15, 25]
 
 
 ### Example 2
-```JavaScript
 
+#### Filter & For loop
+```JavaScript
+// A startup wants to reward the employees with 7 or more hours of overtime
+
+const employeesData = [
+    { name: "Sebastian", overtime: 5 },
+    { name: "Cardi Vee", overtime: 10 },
+    { name: "George Lopez", overtime: 12 }
+];
+
+const goodEmployee = employeesData.filter((employee) => employee.overtime >= 7);
+const employeeNames = []
+
+for (let i = 0; i < goodEmployee.length; i++) {
+    employeeNames.push(goodEmployee[i].name);
+};
+
+console.log(employeeNames); // ['Cardi Vee', 'George Lopez']
+```
+
+#### Filter & Map
+```JavaScript
+const employeesData = [
+    { name: "Sebastian", overtime: 5 },
+    { name: "Cardi Vee", overtime: 10 },
+    { name: "George Lopez", overtime: 12 }
+];
+
+const goodEmployee = employeesData.filter((employee) => employee.overtime >= 7);
+const employeeNames = goodEmployee.map((employee) => employee.name);
+
+console.log(employeeNames); // ['Cardi Vee', 'George Lopez']
 ```
 
 
