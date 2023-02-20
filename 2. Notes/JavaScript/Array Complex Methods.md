@@ -257,20 +257,63 @@ console.log(state); // California
 ## Includes
 * The `array.includes()` method checks if an array contains a certain value
 * This will then return the Boolean `true` or `false` 
+* `array.includes()` is also case sensitive when using strings
 
 ```JavaScript
 const bookshelf = ["Moby dick", "Little Women", "The Great Gatsby", "Pride and Prejudice"];
 
-if (bookshelf.includes("Moby dick") === true) {
+if (bookshelf.includes("Moby dick")) {
     console.log(`We found the correct book.`); // We found the correct book.
 } else {
     console.log(`We could not find the correct book.`);
 }
 ```
 
-
 ## Sort
+* The `array.sort()` method sorts an array of strings alphabetically
+* This method only works for strings and not numbers, it receives them as their character values instead. This can be resoled by providing a comparison function
+* The sort method mutates the original array
+```JavaScript
+const names = ["Anne", "Carl", "Bob", "Dean"];
+
+names.sort();
+console.log(names); // ['Anne', 'Bob', 'Carl', 'Dean']
+```
+
+```JavaScript
+const numbers = [6, 3, 1, 7, 9, 2, 15, 25, 99];
+
+// Ascending numbers.sort((a, b) => a - b);
+// descending numbers.sort((a, b) => b -a);
+
+console.log(numbers.sort((a, b) => a - b)); // [1, 2, 3, 6, 7, 9, 15, 25, 99]
+```
 
 ## Some and Every
 
+### Some
+* The `array.some` method tests that at least one element in the array passes a function.
+* If at least 1 element is passing the function test, it will return the Boolean value `true`
+* `array.some` loops through an array, meaning the function doesn't need to be defined
+```JavaScript
+const array = [1, 2, 3, 4, 5]
+console.log(array.some((number) => number > 3)); // true
+```
+
+### Every
+* The `array.every` methods tests that every element in the array passes a function
+* If at least 1 element fails the function test, it will return the Boolean value `false`
+```JavaScript
+const array = [1, 2, 3, 4, 5]
+console.log(array.every((number) => number > 3)); // false
+```
+
 ## Reduce
+* `array.reduce()` starts with all the elements from an array, iterates over them and computes them to a single value
+* The `array.reduce()` method takes 2 parameters: `accumulator` and `currentValue`
+* Accumulator is something that we initialise, then the call-back function is executed many times
+* In each time, the `currentValue` will be set to one element of the array
+* In each call the current value is added to the accumulator
+* The `array.reduce()` method takes two arguments, the first one is the call-back function that runs for each element in the array
+* The second one is the initial value of the accumulator
+* The result of the `reducer` method is always going to be a single value
