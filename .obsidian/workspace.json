@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Notes/JavaScript/Variables & Data Types.md",
+                "file": "2. Notes/JavaScript/Array Complex Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Notes/JavaScript/Variables & Data Types.md",
+                "file": "2. Notes/JavaScript/Array Complex Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Notes/JavaScript/Variables & Data Types.md",
+                "file": "2. Notes/JavaScript/Array Complex Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Notes/JavaScript/Variables & Data Types.md"
+                "file": "2. Notes/JavaScript/Array Complex Methods.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "3b78a4675a6d2a28",
   "lastOpenFiles": [
+    "2. Notes/Daily Notes/2023-02-22.md",
+    "2. Notes/JavaScript/Variables & Data Types.md",
     "2. Notes/JavaScript/Strings in detail.md",
     "2. Notes/JavaScript/Operators & Equality.md",
     "2. Notes/Daily Notes/2023-02-21.md",
     "2. Notes/JavaScript/Array Complex Methods.md",
     "2. Notes/JavaScript/Array Declaration & Simple Methods.md",
     "2. Notes/Daily Notes/2023-02-20.md",
-    "2. Notes/JavaScript/Variables & Data Types.md",
     "2. Notes/JavaScript/Scope.md",
-    "2. Notes/JavaScript/Logic & Control Flow.md",
-    "2. Notes/JavaScript/Hoisting.md"
+    "2. Notes/JavaScript/Logic & Control Flow.md"
   ]
 }
