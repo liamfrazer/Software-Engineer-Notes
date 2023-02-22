@@ -19,4 +19,6 @@
 * [Closures](2.%20Notes/JavaScript/Closures.md)
 * [Strings in detail](2.%20Notes/JavaScript/Strings%20in%20detail.md)
 * [Array Declaration & Simple Methods](2.%20Notes/JavaScript/Array%20Declaration%20&%20Simple%20Methods.md)
+* [Array Complex Methods](2.%20Notes/JavaScript/Array%20Complex%20Methods.md)
+* [Objects in detail](2.%20Notes/JavaScript/Objects%20in%20detail.md)
 

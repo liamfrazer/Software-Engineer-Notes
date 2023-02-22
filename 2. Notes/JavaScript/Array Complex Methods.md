@@ -344,9 +344,15 @@ console.log(total); // 318
 ```JavaScript
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const sum = numbers.reduce((accumulator, currentValue) => {
-    return accumulator + currentValue;
+const sum = numbers.reduce((acc, val) => {
+    return acc + val;
 }, 0);
+
+// acc = 0, val = 1 => 0 + 1 === 1
+// acc = 1, val = 2 => 1 + 2 === 3
+// acc = 3, val = 3 => 3 + 3 === 6
+// acc = 6, val = 4 => 6 + 4 === 10
+// acc = 10, val = 5 => 10 + 5 === 15
 
 console.log(sum); // 55
 ```
@@ -357,6 +363,6 @@ console.log(sum); // 55
 #### Calculating the sum of numbers in an array - ES6
 ```JavaScript
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue)
+const sum = numbers.reduce((acc, val) => acc + val)
 console.log(sum); // 55
 ```
