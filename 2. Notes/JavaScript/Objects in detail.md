@@ -72,9 +72,28 @@ person.firstName
 ```
 * We can also add or overwrite some properties:
 ```JavaScript
-
+person.dog = { name: 'Fluffy', age: 2 };
+person.age = 26;
 ```
 
+### Square Bracket Notation
+* Square bracket notation, like the dot notation, allows us to access properties of an object:
+```JavaScript
+person['firstName'];
+```
+* Square bracket notation also has some additional features, such as accessing the properties dynamically
+```JavaScript
+const property = 'age';
+person[property];
+```
+* It is also used when we have key names that are not usual JavaScript variable names:
+```JavaScript
+person['this-is-a-key-with-dashes'];
+person['this is another key']
+
+person.this is another key // Error
+person.this - is - a - key -with-dashes // Error
+```
 
 
 ## Built in Methods
