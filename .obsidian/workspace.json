@@ -30,6 +30,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b7b1e65d6e2f24c8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -161,11 +171,11 @@
   },
   "active": "75974c16693e7790",
   "lastOpenFiles": [
+    "2. Notes/Daily Notes/2023-02-22.md",
     "README.md",
     "1. MOC/JavaScript.md",
     "2. Notes/JavaScript/Objects in detail.md",
     "2. Notes/JavaScript/Array Complex Methods.md",
-    "2. Notes/Daily Notes/2023-02-22.md",
     "2. Notes/JavaScript/Variables & Data Types.md",
     "2. Notes/JavaScript/Strings in detail.md",
     "2. Notes/JavaScript/Operators & Equality.md",

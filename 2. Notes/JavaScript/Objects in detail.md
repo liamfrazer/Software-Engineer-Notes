@@ -62,9 +62,20 @@ const person = {
 console.log(person); // {firstname: 'Liam'}
 ```
 
-
-
 ## Accessing, Adding and Updating Properties of an Object
+
+### Dot Notation
+* Dot notation allows us to retrieve some values from an object
+* If we want to get only the `firstName` of our person, we can do the following:
+```JavaScript
+person.firstName
+```
+* We can also add or overwrite some properties:
+```JavaScript
+
+```
+
+
 
 ## Built in Methods
 
