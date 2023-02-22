@@ -97,5 +97,7 @@ person.this - is - a - key -with-dashes // Error
 
 
 ## Built in Methods
+* A method is a property of an object that is a function
+
 
 ## Methods
